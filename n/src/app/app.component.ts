@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {  
+export class AppComponent {   
   title = 'todo';  
   
   filter: 'all' | 'active' | 'done' = 'all';  
